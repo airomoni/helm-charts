@@ -55,7 +55,7 @@ ingress:
         - path: /
           pathType: Prefix
   tls:
-    - secretName: airomoni-wildcard-tlss
+    - secretName: airomoni-wildcard-tls
       hosts:
         - airopayapi.staging.airomoni.com
 
