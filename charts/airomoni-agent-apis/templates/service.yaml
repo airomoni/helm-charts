@@ -8,8 +8,8 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: 8084
+      targetPort: http
       protocol: TCP
-      name: https
+      name: http
   selector:
     {{- include "airopay-api.selectorLabels" . | nindent 4 }}
