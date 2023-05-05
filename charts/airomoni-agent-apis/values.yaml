@@ -8,7 +8,7 @@ image:
   repository: us-central1-docker.pkg.dev/focal-bucksaw-382215/airomoni-agent-apis/master
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 72
+  tag: 4
 
 imagePullSecrets: []
 nameOverride: ""
