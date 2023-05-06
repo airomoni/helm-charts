@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: us-central1-docker.pkg.dev/focal-bucksaw-382215/airomoni-bankone-middleware/master
+  repository: us-central1-docker.pkg.dev/focal-bucksaw-382215/airomoni-bankone-middleware/main
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: 4
