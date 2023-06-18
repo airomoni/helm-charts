@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: us-central1-docker.pkg.dev/focal-bucksaw-382215/airopay-backend-api/master
+  repository: us-central1-docker.pkg.dev/focal-bucksaw-382215/airopay-api/master
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: 73
@@ -40,7 +40,7 @@ securityContext:
 
 service:
   type: ClusterIP
-  port: 3000
+  port: 80
 
 ingress:
   enabled: true
